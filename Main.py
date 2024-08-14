@@ -6,7 +6,7 @@ import time
 def login_form():
     with st.form(key="login_form"):
         login_id = st.text_input("Login ID")
-        password = st.text_input("Password", type="password")
+        password = st.text_input("Password")
         login_button = st.form_submit_button("Login")
 
         if login_button:
