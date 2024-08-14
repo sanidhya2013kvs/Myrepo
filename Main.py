@@ -10,7 +10,7 @@ def login_form():
         login_button = st.form_submit_button("Login")
 
         if login_button:
-            if login_id == "Sanidhya Srivastava" and password == "password":  # Replace with actual credentials
+            if login_id == "Sanidhya2468" and password == "pass2468":  # Replace with actual credentials
                 st.success("Logged in successfully")
                 st.session_state.logged_in = True
                 st.session_state.name = "Sanidhya Srivastava"  # Replace with actual user data
