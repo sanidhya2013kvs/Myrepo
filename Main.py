@@ -41,4 +41,4 @@ else:
         st.image(st.session_state.image_file, caption='Resized Passport Size Photo', use_column_width=True)
 
     if st.button("generate letter"):
-        st.warning('Dear Candidate your's joining letter is in progress  please wait for few hours')
+        st.warning("Dear Candidate your's joining letter is in progress  please wait for few hours")
