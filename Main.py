@@ -24,14 +24,11 @@ if not st.session_state.logged_in:
     login_form()
 
     # Profile form for image upload and resize
-name=Sanidhya Srivastava 
-Position =computer vision engineer 
-phone_nunber=+91 88404545270
 st.text("Name:Sanidhya Srivastava")
 st.text("Position:computer vision research engineer")
 st.text("address:733, civil lines ,church road Sitapur UttarPradesh, 261001")
-st.text(f"Phone Number: {phone_number}")
-st.text(uid)
+st.text("phone number:+918840445270")
+st.text("UId:6753982561")
 
 if 'image_file' in st.session_state:
     st.image(st.session_state.image_file, caption='Resized Passport Size Photo', use_column_width=True)
