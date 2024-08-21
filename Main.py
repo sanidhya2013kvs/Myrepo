@@ -15,4 +15,4 @@ st.text("address:733, civil lines ,church road Sitapur UttarPradesh, 261001")
 
 
 if st.button("generate letter"):
-    st.warning("Dear Candidate your's joining letter is in progress  please wait for few hours")
+    st.warning("Dear Candidate your's joining letter has been in process and will recived by mail shotrtly")
