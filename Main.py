@@ -4,7 +4,7 @@ import time
 
 # Function to display the login form
 
-image_path = "./img.jpg"  # Replace with your image path
+image_path = "/img.jpg"  # Replace with your image path
 
 # Display the image with a specified width
 st.image(image_path, width=150)  # Adjust width to your desired size
