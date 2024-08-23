@@ -10,6 +10,8 @@ image_path = "./IMG.JPG"  # Replace with your image path
 st.image(image_path, width=150)  # Adjust width to your desired size
     # Profile form for image upload and resize
 st.text("Name:Sanidhya Srivastava")
+st.text("Location:Gurugram,Haryana,India")
+st.text("Apple ID:8532584")
 st.text("Position:computer vision research engineer")
 st.text("address:733, civil lines ,church road Sitapur UttarPradesh, 261001")
 
